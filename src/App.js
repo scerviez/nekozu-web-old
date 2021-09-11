@@ -32,12 +32,16 @@ function App() {
         .
       </p>
       <br />
-      <h2>Date Now:</h2>
-      <p>{date ? date : 'Loading date...'}</p>
-    <div>
-      Bot Docs
-      <BottomNav name='home' />
-    </div>
+      <h2>
+        Docs
+        <a
+          href="https://nekozu-document.now.sh"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Bot Documentation And Api
+        </a>
+      </h2>
     </main>
   );
 }
