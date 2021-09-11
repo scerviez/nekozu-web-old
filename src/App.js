@@ -41,6 +41,7 @@ function App() {
           Bot Documentation And Api
         </a>
       </h2>
+      <p>© 2021 Nekozu</p>
     </main>
   );
 }
