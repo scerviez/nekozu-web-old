@@ -14,6 +14,11 @@ const BottomNav = props => {
         switch (activeTabs) {
             case 'home':
                 router.push('https://nekozu-web.doc.vercel.app')
+                break;
+            default:
+                router.push('/')
+                break;
+        }
     }, [activeTabs, router])
 
     return (
