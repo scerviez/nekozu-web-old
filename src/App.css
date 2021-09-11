@@ -5,7 +5,6 @@ main {
     'Arial', sans-serif;
   line-height: 1.65;
   margin: 0 auto;
-  min-height: 100vh;
   padding: 72px 0;
   text-align: center;
 }
