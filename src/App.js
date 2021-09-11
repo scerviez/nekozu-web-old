@@ -22,7 +22,7 @@ function App() {
           target="_blank"
           rel="noreferrer noopener"
         >
-          Nekozu
+          Telegram
         </a>
         !
       </h2>
