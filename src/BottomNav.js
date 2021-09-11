@@ -1,5 +1,4 @@
-  
-import Styles from './BottomNav.module.css'
+import Styles from './BottomNav.css'
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import { RiHomeSmile2Line, RiHomeSmile2Fill, RiSearchEyeFill } from 'react-icons/ri'
