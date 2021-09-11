@@ -14,41 +14,24 @@ function App() {
   }, []);
   return (
     <main>
-      <h1>Create React App + Go API</h1>
+      <h1>Welcome To Nekozu Website</h1>
       <h2>
-        Deployed with{' '}
+        See Our Channel At{' '}
         <a
-          href="https://vercel.com/docs"
+          href="https://t.me/nekozu"
           target="_blank"
           rel="noreferrer noopener"
         >
-          Vercel
+          Nekozu
         </a>
         !
       </h2>
       <p>
-        <a
-          href="https://github.com/vercel/vercel/tree/main/examples/create-react-app"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          This project
-        </a>{' '}
-        was bootstrapped with{' '}
-        <a href="https://facebook.github.io/create-react-app/">
-          Create React App
-        </a>{' '}
-        and contains three directories, <code>/public</code> for static assets,{' '}
-        <code>/src</code> for components and content, and <code>/api</code>{' '}
-        which contains a serverless <a href="https://golang.org/">Go</a>{' '}
-        function. See{' '}
-        <a href="/api/date">
-          <code>api/date</code> for the Date API with Go
-        </a>
+        Nekozu Is A Channel At Telegram To Create A Multifunction Bot And Open Source
         .
       </p>
       <br />
-      <h2>The date according to Go is:</h2>
+      <h2>Date Now:</h2>
       <p>{date ? date : 'Loading date...'}</p>
     </main>
   );
