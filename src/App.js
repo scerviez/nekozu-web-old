@@ -1,6 +1,8 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import './App.css';
+import BottomNav from './BottomNav'
+
 
 function App() {
   const [date, setDate] = useState(null);
@@ -33,6 +35,10 @@ function App() {
       <br />
       <h2>Date Now:</h2>
       <p>{date ? date : 'Loading date...'}</p>
+    <div>
+      Bot Docs
+      <BottomNav name='home' />
+    </div>
     </main>
   );
 }
