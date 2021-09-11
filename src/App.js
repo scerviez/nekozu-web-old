@@ -33,7 +33,6 @@ function App() {
       </p>
       <br />
       <h2>
-        Docs
         <a
           href="https://nekozu-document.now.sh"
           target="_blank"
