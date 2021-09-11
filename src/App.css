@@ -3,8 +3,6 @@ main {
   background-image: url("waduhbro.jpg");
   font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
-  max-width: 680px;
-  min-height: 100vh;
   text-align: center;
 }
 h1 {
