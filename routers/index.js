@@ -9,7 +9,7 @@ app.get('/s', function (req, res) {
 });
 
 app.post('/search', function (req, res) {
-    var name = req.body.firstName + ' ' + req.body.lastName;
+    var name = req.body.query + ' ';
     
     res.send(name + ' Submitted Successfully!');
 });
