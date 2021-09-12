@@ -32,15 +32,6 @@ function App() {
         .
       </p>
       <br />
-      <h2>
-        <a
-          href="https://nekozu-document.now.sh"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          Bot Documentation And Api
-        </a>
-      </h2>
       <p>© 2021 Nekozu</p>
     </main>
   );
