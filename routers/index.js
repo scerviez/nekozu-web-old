@@ -16,6 +16,7 @@ app.post('/search', function (req, res) {
     res.send(name + ' Submitted Successfully!');
 });
 
-var server = app.listen(5000, function () {
-    console.log('Node server is running..');
-});
+const server = http.createServer(app);
+const port = 3000;
+server.listen(port);
+console.debug('Server listening on port ' + port);
