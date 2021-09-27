@@ -32,7 +32,9 @@ function App() {
         .
       </p>
       <br />
-      <p>© 2021 Nekozu</p>
+      <footer>
+        <p>© 2021<a href="https://t.me/nekozu">Nekozu/a></p>
+      </footer>
     </main>
   );
 }
