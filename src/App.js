@@ -1,33 +1,28 @@
-import React from 'react';
-import { useEffect, useState } from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+import Navi from "./navbar"
 
-function App() {
+import Pm from './Pm'
+import Home from './Home'
+import Not from './nothing'
+import Contact from './Contact'
+import Footer from './footer'
+
+export default function App() {
   return (
     <main>
-      <h1>Welcome To Nekozu Website</h1>
-      <h2>
-        See Our Channel At{' '}
-        <a
-          href="https://t.me/nekozu"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          Telegram
-        </a>
-        !
-      </h2>
-      <p>
-        Nekozu Is A Channel At Telegram To Create A Multifunction Bot And Open Source
-        .
-      </p>
-      <br />
-      <footer>
-        <p>© 2021<a href="https://t.me/nekozu"> Nekozu</a></p>
-      </footer>
-    </main>
-  );
+    <Router>
+      <Navi />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/Pm" component={Pm} />
+        <Route path="/Contact" component={Contact} />
+        <Route component={Not} />
+      </Switch>
+    </Router>
+    <Footer />
+    </main> 
+    );
 }
-
-export default App;
