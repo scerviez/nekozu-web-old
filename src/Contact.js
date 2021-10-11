@@ -1,16 +1,12 @@
-import React from "react";
-import styles from '../styles/Contact.module.css'
-
-export default function Contact(){
-    return(
-        <div className={styles.container}>
-            <h2 className={styles.title}>Contact Page</h2>
-            <div className={styles.details}>
-                <li className={styles.list}>
-                <label className={styles.label}>Email:</label>
-                <p className={styles.value}>nekozu@gnuweeb.org</p>
-                </li>
-            </div>
-        </div>
-    )
+import React, { Component } from "react";
+ 
+export default class Contact extends Component {
+  render() {
+    return (
+      <div>
+        <h2>Contact Me</h2>
+        <p><a href="https://t.me/exexme">Telegram</a> <a href="mailto:kurayatim@yandex.com/">Email</a></p>
+      </div>   
+      );
+  }
 }
