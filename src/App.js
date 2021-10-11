@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Navi from "./navbar"
 
-import Pm from './Pm'
+import List from './List'
 import Home from './Home'
 import Not from './nothing'
 import Contact from './Contact'
@@ -17,7 +17,7 @@ export default function App() {
       <Navi />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/Pm" component={Pm} />
+        <Route path="/List" component={List} />
         <Route path="/Contact" component={Contact} />
         <Route component={Not} />
       </Switch>
