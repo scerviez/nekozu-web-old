@@ -5,7 +5,7 @@ export default class List extends Component {
     return (
       <div>
         <h2>List Of Bots</h2>
-       <button class="button button1" onclick="window.location.href = 'https://t.me/akaragibot';">Akaragi Chat Bot</button>
+        <a href="https://t.me/akaragibot">Akaragi Chat Bot</a>
       </div>   
       );
   }
