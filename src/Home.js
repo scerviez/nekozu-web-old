@@ -21,9 +21,6 @@ function Home() {
         .
       </p>
       <br />
-      <footer>
-        <p>© 2021<a href="https://t.me/nekozu"> Nekozu</a></p>
-      </footer>
     </main>
   );
 }
