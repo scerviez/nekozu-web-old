@@ -64,7 +64,7 @@ code:after {
 .footer{
   margin-top: 1rem;
   padding: 1rem;
-  background-color: rgb(255,0,0,0.3);
+  background-color: transparent;
   position: fixed;
   bottom: 0;
   left: 0;
